@@ -1,5 +1,5 @@
 # Final Individual Project
 
-*Click [here](screenshots/Final%20Document.docx) for the final document*
+*Click https://github.com/Nidhikokande/Final_individual_project/blob/main/Final_indv_proj.docx for the final document*
 
 *Thank you!*
