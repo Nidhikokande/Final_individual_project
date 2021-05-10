@@ -107,7 +107,7 @@ def api_edit(res_GameNumber) -> str:
     return resp
 
 
-@app.route('/api/v1/results/', methods=['POST'])
+@app.route('/api/v1/results', methods=['POST'])
 def api_add() -> str:
     content = request.json
     cursor = mysql.get_db().cursor()
