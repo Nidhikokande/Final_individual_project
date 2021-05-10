@@ -48,7 +48,7 @@ def form_update_post(res_GameNumber):
     sql_update_query = """UPDATE tblsnldImport t SET t.GameNumber = %s, t.GameLength = %s WHERE t.GameNumber = %s """
     cursor.execute(sql_update_query, inputData)
     mysql.get_db().commit()
-    return redirect("/", code=200)
+    return redirect("/", code=302)
 
 
 @app.route('/results/new', methods=['GET'])
